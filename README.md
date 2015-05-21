@@ -1,6 +1,6 @@
 # capistrano-envyable-export
 
-Export your [Envyable](https://github.com/philnash/envyable) and an optional env file to your remote servers with Capistrano.
+Export your [Envyable](https://github.com/philnash/envyable) configuration and an optional env file to your remote servers with Capistrano.
 
 [![Build Status](https://travis-ci.org/philnash/envyable.png?branch=master)](https://travis-ci.org/philnash/envyable)
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
     $ gem install capistrano-envyable-export
 
-## Add the following line in your `Capfile`
+Add the following line in your `Capfile`
 
 ```
 require "capistrano/envyable-export"

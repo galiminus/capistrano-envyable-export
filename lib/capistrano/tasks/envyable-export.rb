@@ -18,7 +18,7 @@ namespace :envyable do
     end
   end
 
-  before 'deploy:publishing', 'envyable:export'
+  after 'deploy:updated', 'envyable:export'
 end
 
 namespace :load do
